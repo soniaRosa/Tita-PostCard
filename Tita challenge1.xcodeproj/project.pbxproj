@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46133A3819C830A300972E6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46133A3719C830A300972E6F /* AppDelegate.swift */; };
+		46133A3A19C830A300972E6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46133A3919C830A300972E6F /* ViewController.swift */; };
+		46133A3D19C830A300972E6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46133A3B19C830A300972E6F /* Main.storyboard */; };
+		46133A3F19C830A300972E6F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46133A3E19C830A300972E6F /* Images.xcassets */; };
+		46133A4B19C830A300972E6F /* Tita_challenge1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46133A4A19C830A300972E6F /* Tita_challenge1Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46133A4519C830A300972E6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46133A2A19C830A300972E6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46133A3119C830A300972E6F;
+			remoteInfo = "Tita challenge1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46133A3219C830A300972E6F /* Tita challenge1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tita challenge1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46133A3619C830A300972E6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46133A3719C830A300972E6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46133A3919C830A300972E6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46133A3C19C830A300972E6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46133A3E19C830A300972E6F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		46133A4419C830A300972E6F /* Tita challenge1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tita challenge1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46133A4919C830A300972E6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46133A4A19C830A300972E6F /* Tita_challenge1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tita_challenge1Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46133A2F19C830A300972E6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46133A4119C830A300972E6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46133A2919C830A300972E6F = {
+			isa = PBXGroup;
+			children = (
+				46133A3419C830A300972E6F /* Tita challenge1 */,
+				46133A4719C830A300972E6F /* Tita challenge1Tests */,
+				46133A3319C830A300972E6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46133A3319C830A300972E6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46133A3219C830A300972E6F /* Tita challenge1.app */,
+				46133A4419C830A300972E6F /* Tita challenge1Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46133A3419C830A300972E6F /* Tita challenge1 */ = {
+			isa = PBXGroup;
+			children = (
+				46133A3719C830A300972E6F /* AppDelegate.swift */,
+				46133A3919C830A300972E6F /* ViewController.swift */,
+				46133A3B19C830A300972E6F /* Main.storyboard */,
+				46133A3E19C830A300972E6F /* Images.xcassets */,
+				46133A3519C830A300972E6F /* Supporting Files */,
+			);
+			path = "Tita challenge1";
+			sourceTree = "<group>";
+		};
+		46133A3519C830A300972E6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46133A3619C830A300972E6F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46133A4719C830A300972E6F /* Tita challenge1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				46133A4A19C830A300972E6F /* Tita_challenge1Tests.swift */,
+				46133A4819C830A300972E6F /* Supporting Files */,
+			);
+			path = "Tita challenge1Tests";
+			sourceTree = "<group>";
+		};
+		46133A4819C830A300972E6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46133A4919C830A300972E6F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46133A3119C830A300972E6F /* Tita challenge1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46133A4E19C830A300972E6F /* Build configuration list for PBXNativeTarget "Tita challenge1" */;
+			buildPhases = (
+				46133A2E19C830A300972E6F /* Sources */,
+				46133A2F19C830A300972E6F /* Frameworks */,
+				46133A3019C830A300972E6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tita challenge1";
+			productName = "Tita challenge1";
+			productReference = 46133A3219C830A300972E6F /* Tita challenge1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46133A4319C830A300972E6F /* Tita challenge1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46133A5119C830A300972E6F /* Build configuration list for PBXNativeTarget "Tita challenge1Tests" */;
+			buildPhases = (
+				46133A4019C830A300972E6F /* Sources */,
+				46133A4119C830A300972E6F /* Frameworks */,
+				46133A4219C830A300972E6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46133A4619C830A300972E6F /* PBXTargetDependency */,
+			);
+			name = "Tita challenge1Tests";
+			productName = "Tita challenge1Tests";
+			productReference = 46133A4419C830A300972E6F /* Tita challenge1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46133A2A19C830A300972E6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Sonia Rosa";
+				TargetAttributes = {
+					46133A3119C830A300972E6F = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					46133A4319C830A300972E6F = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 46133A3119C830A300972E6F;
+					};
+				};
+			};
+			buildConfigurationList = 46133A2D19C830A300972E6F /* Build configuration list for PBXProject "Tita challenge1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46133A2919C830A300972E6F;
+			productRefGroup = 46133A3319C830A300972E6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46133A3119C830A300972E6F /* Tita challenge1 */,
+				46133A4319C830A300972E6F /* Tita challenge1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46133A3019C830A300972E6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46133A3D19C830A300972E6F /* Main.storyboard in Resources */,
+				46133A3F19C830A300972E6F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46133A4219C830A300972E6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46133A2E19C830A300972E6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46133A3A19C830A300972E6F /* ViewController.swift in Sources */,
+				46133A3819C830A300972E6F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46133A4019C830A300972E6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46133A4B19C830A300972E6F /* Tita_challenge1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46133A4619C830A300972E6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46133A3119C830A300972E6F /* Tita challenge1 */;
+			targetProxy = 46133A4519C830A300972E6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46133A3B19C830A300972E6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46133A3C19C830A300972E6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46133A4C19C830A300972E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46133A4D19C830A300972E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46133A4F19C830A300972E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Tita challenge1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46133A5019C830A300972E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Tita challenge1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		46133A5219C830A300972E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tita challenge1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tita challenge1.app/Tita challenge1";
+			};
+			name = Debug;
+		};
+		46133A5319C830A300972E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tita challenge1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tita challenge1.app/Tita challenge1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46133A2D19C830A300972E6F /* Build configuration list for PBXProject "Tita challenge1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46133A4C19C830A300972E6F /* Debug */,
+				46133A4D19C830A300972E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46133A4E19C830A300972E6F /* Build configuration list for PBXNativeTarget "Tita challenge1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46133A4F19C830A300972E6F /* Debug */,
+				46133A5019C830A300972E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46133A5119C830A300972E6F /* Build configuration list for PBXNativeTarget "Tita challenge1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46133A5219C830A300972E6F /* Debug */,
+				46133A5319C830A300972E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46133A2A19C830A300972E6F /* Project object */;
+}
