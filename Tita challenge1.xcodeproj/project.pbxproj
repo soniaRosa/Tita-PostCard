@@ -12,6 +12,7 @@
 		46133A3D19C830A300972E6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46133A3B19C830A300972E6F /* Main.storyboard */; };
 		46133A3F19C830A300972E6F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46133A3E19C830A300972E6F /* Images.xcassets */; };
 		46133A4B19C830A300972E6F /* Tita_challenge1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46133A4A19C830A300972E6F /* Tita_challenge1Tests.swift */; };
+		46133A5719C836A400972E6F /* tita.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 46133A5619C836A400972E6F /* tita.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		46133A4419C830A300972E6F /* Tita challenge1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tita challenge1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46133A4919C830A300972E6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46133A4A19C830A300972E6F /* Tita_challenge1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tita_challenge1Tests.swift; sourceTree = "<group>"; };
+		46133A5619C836A400972E6F /* tita.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tita.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		46133A3519C830A300972E6F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				46133A5619C836A400972E6F /* tita.JPG */,
 				46133A3619C830A300972E6F /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -189,6 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46133A5719C836A400972E6F /* tita.JPG in Resources */,
 				46133A3D19C830A300972E6F /* Main.storyboard in Resources */,
 				46133A3F19C830A300972E6F /* Images.xcassets in Resources */,
 			);
